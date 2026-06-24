@@ -1,0 +1,12 @@
+{
+  "name": "chinese-poems-widget",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personalized Chinese poetry recommendation system planning and future web/extension workspace.",
+  "scripts": {
+    "verify:structure": "python scripts/verify_structure.py"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
