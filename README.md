@@ -17,11 +17,14 @@
 
 ## 当前阶段
 
-当前仓库仍处于项目规划阶段，已经沉淀了六份核心文档：
+当前仓库仍处于项目规划阶段，已经沉淀了九份核心文档：
 
 - [产品方案：个性化诗词推荐系统](docs/product-plan.md)
 - [GitHub 与 Codex 云端开发环境说明](docs/github-codex-workflow.md)
 - [Planning 阶段补充调研与决策清单](docs/planning-research.md)
+- [数据库调研与数据方案决策](docs/database-research.md)
+- [`chinese-poetry` 数据源能力评估](docs/chinese-poetry-source-evaluation.md)
+- [Phase 1 数据 Schema](docs/data-schema.md)
 - [项目实施路线图与阶段产出](docs/implementation-roadmap.md)
 - [开发环境与工程约定](docs/development-setup.md)
 - [Phase 0 完成说明](docs/phase-0-completion.md)
@@ -51,9 +54,9 @@
 
 ## 下一步
 
-Phase 0 已完成工程骨架。下一步进入 Phase 1：诗词数据 MVP。
+Phase 0 已完成工程骨架，Phase 1 Step 1/2 已完成数据源探查与 canonical schema 初稿。下一步进入 Phase 1 Step 3/4：构建可重复的数据导入与 feature enrichment pipeline。
 
-1. 编写 `docs/data-schema.md`。
-2. 准备 `data/samples/poems.sample.json`，先放 20 首人工 seed 诗词。
-3. 实现 `scripts/data_import/validate_poems.py`，校验诗词数据格式。
+1. 实现 `scripts/data_import/normalize_poems.py`，把上游 JSON 转成 canonical JSONL，并替换或核验当前 manual schema fixture。
+2. 实现 `scripts/data_import/enrich_features.py`，批量生成规则推断 features。
+3. 生成 `data/processed/poems.seed.v0.jsonl` 与导入报告。
 4. 再进入推荐系统最小闭环。
