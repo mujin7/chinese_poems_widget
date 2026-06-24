@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "chinese_poetry",
+    "name": "chinese-poetry/chinese-poetry",
+    "homepage": "https://github.com/chinese-poetry/chinese-poetry",
+    "license": "MIT",
+    "retrieved_at": "2026-06-24",
+    "usage": "Primary raw corpus for public-domain Chinese classical poetry text; not treated as a complete recommendation feature database.",
+    "sampled_paths": [
+      "全唐诗/poet.tang.0.json",
+      "全唐诗/poet.song.0.json",
+      "宋词/ci.song.0.json",
+      "全唐诗/authors.tang.json",
+      "strains/json/poet.tang.0.json",
+      "rank/poet/poet.tang.rank.0.json",
+      "rank/ci/ci.song.rank.0.json"
+    ],
+    "known_gaps": [
+      "No complete recommendation features such as themes, styles, mood, difficulty or suitable contexts.",
+      "No user behavior, recommendation logs or embeddings.",
+      "No modern annotation/translation layer suitable for direct product use.",
+      "Song Ci records use rhythmic/cipai and may not provide a separate title field."
+    ],
+    "phase1_decision": "Use as raw corpus only. Normalize into the project canonical poem schema and enrich features separately."
+  }
+]

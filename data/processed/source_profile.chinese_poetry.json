@@ -1,0 +1,501 @@
+{
+  "profile_id": "chinese_poetry_source_profile_v0",
+  "generated_at": "2026-06-24T08:45:31.759516+00:00",
+  "upstream_repo": "https://github.com/chinese-poetry/chinese-poetry",
+  "license_observed_in_repo": "MIT",
+  "inspection_scope": "Representative upstream files only; not a full corpus import.",
+  "inspected_sources": [
+    {
+      "source_id": "quantangshi_poet_tang_0",
+      "kind": "poem",
+      "dynasty": "唐",
+      "genre": "诗",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/%E5%85%A8%E5%94%90%E8%AF%97/poet.tang.0.json",
+      "expected_join_key": "id",
+      "record_count_in_sample_file": 1000,
+      "fields": [
+        {
+          "name": "author",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "id",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "paragraphs",
+          "presence_ratio": 1.0,
+          "example_type": "list",
+          "list_length": {
+            "min": 1,
+            "max": 22,
+            "avg": 4.31
+          }
+        },
+        {
+          "name": "tags",
+          "presence_ratio": 0.067,
+          "example_type": "list",
+          "list_length": {
+            "min": 1,
+            "max": 10,
+            "avg": 2.6
+          }
+        },
+        {
+          "name": "title",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        }
+      ],
+      "sample_records": [
+        {
+          "author": "太宗皇帝",
+          "paragraphs": [
+            "秦川雄帝宅，函谷壯皇居。",
+            "綺殿千尋起，離宮百雉餘。",
+            "連甍遙接漢，飛觀迥凌虛。",
+            "雲日隱層闕，風煙出綺疎。"
+          ],
+          "title": "帝京篇十首 一",
+          "id": "3ad6d468-7ff1-4a7b-8b24-a27d70d00ed4"
+        },
+        {
+          "author": "太宗皇帝",
+          "paragraphs": [
+            "巖廊罷機務，崇文聊駐輦。",
+            "玉匣啓龍圖，金繩披鳳篆。",
+            "韋編斷仍續，縹帙舒還卷。",
+            "對此乃淹留，欹案觀墳典。"
+          ],
+          "title": "帝京篇十首 二",
+          "id": "13e72581-968b-457f-b381-a3b7d95b8b7c"
+        }
+      ]
+    },
+    {
+      "source_id": "quantangshi_poet_song_0",
+      "kind": "poem",
+      "dynasty": "宋",
+      "genre": "诗",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/%E5%85%A8%E5%94%90%E8%AF%97/poet.song.0.json",
+      "expected_join_key": "id",
+      "record_count_in_sample_file": 1000,
+      "fields": [
+        {
+          "name": "author",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "id",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "paragraphs",
+          "presence_ratio": 1.0,
+          "example_type": "list",
+          "list_length": {
+            "min": 1,
+            "max": 81,
+            "avg": 3.69
+          }
+        },
+        {
+          "name": "tags",
+          "presence_ratio": 0.029,
+          "example_type": "list",
+          "list_length": {
+            "min": 1,
+            "max": 6,
+            "avg": 1.59
+          }
+        },
+        {
+          "name": "title",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        }
+      ],
+      "sample_records": [
+        {
+          "author": "宋太祖",
+          "paragraphs": [
+            "欲出未出光辣達，千山萬山如火發。",
+            "須臾走向天上來，逐却殘星趕却月。"
+          ],
+          "title": "日詩",
+          "id": "08e41396-2809-423d-9bbc-1e6fb24c0ca1"
+        },
+        {
+          "author": "宋太祖",
+          "paragraphs": [
+            "未離海底千山黑，纔到天中萬國明。"
+          ],
+          "title": "句",
+          "id": "adaa27a4-389b-48ca-8021-80f0471433c4"
+        }
+      ]
+    },
+    {
+      "source_id": "song_ci_0",
+      "kind": "ci",
+      "dynasty": "宋",
+      "genre": "词",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/%E5%AE%8B%E8%AF%8D/ci.song.0.json",
+      "expected_join_key": null,
+      "record_count_in_sample_file": 1000,
+      "fields": [
+        {
+          "name": "author",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "paragraphs",
+          "presence_ratio": 1.0,
+          "example_type": "list",
+          "list_length": {
+            "min": 1,
+            "max": 29,
+            "avg": 7.71
+          }
+        },
+        {
+          "name": "rhythmic",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "tags",
+          "presence_ratio": 0.065,
+          "example_type": "list",
+          "list_length": {
+            "min": 1,
+            "max": 2,
+            "avg": 1.05
+          }
+        }
+      ],
+      "sample_records": [
+        {
+          "author": "和岘",
+          "paragraphs": [
+            "气和玉烛，睿化著鸿明。",
+            "缇管一阳生。",
+            "郊禋盛礼燔柴毕，旋轸凤凰城。",
+            "森罗仪卫振华缨。",
+            "载路溢欢声。",
+            "皇图大业超前古，垂象泰阶平。",
+            "岁时丰衍，九土乐升平。",
+            "睹寰海澄清。",
+            "道高尧舜垂衣治，日月并文明。",
+            "嘉禾甘露登歌荐，云物焕祥经。",
+            "兢兢惕惕持谦德，未许禅云亭。"
+          ],
+          "rhythmic": "导引"
+        },
+        {
+          "author": "和岘",
+          "paragraphs": [
+            "严夜警，铜莲漏迟迟。",
+            "清禁肃，森陛戟，羽卫俨皇闱。",
+            "角声励，钲鼓攸宜。",
+            "金管成雅奏，逐吹逶迤。",
+            "荐苍璧，郊祀神祗。",
+            "属景运纯禧。",
+            "京坻丰衍，群材乐育，诸侯述职，盛德服蛮夷。",
+            "殊祥萃，九苞丹凤来仪。",
+            "膏露降，和气洽，三秀焕灵芝。",
+            "鸿猷播，史册相辉。",
+            "张四维。",
+            "卜世永固丕基。",
+            "敷玄化，荡荡无为。",
+            "合尧舜文思。",
+            "混并寰宇，休牛归马，销金偃革，蹈咏庆昌期。"
+          ],
+          "rhythmic": "六州"
+        }
+      ]
+    },
+    {
+      "source_id": "authors_tang",
+      "kind": "author",
+      "dynasty": "唐",
+      "genre": null,
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/%E5%85%A8%E5%94%90%E8%AF%97/authors.tang.json",
+      "expected_join_key": "name",
+      "record_count_in_sample_file": 3675,
+      "fields": [
+        {
+          "name": "desc",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "id",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "name",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        }
+      ],
+      "sample_records": [
+        {
+          "desc": "帝姓李氏，諱世民，神堯次子，聰明英武。貞觀之治，庶幾成康，功德兼隆。由漢以來，未之有也。而銳情經術，初建秦邸，即開文學館，召名儒十八人爲學士。既即位，殿左置弘文館，悉引內學士，番宿更休。聽朝之間，則與討論典籍，雜以文詠。或日昃夜艾，未嘗少怠。詩筆草隸，卓越前古。至於天文秀發，沈麗高朗，有唐三百年風雅之盛，帝實有以啓之焉。在位二十四年，諡曰文。集四十卷。館閣書目，詩一卷，六十九首。今編詩一卷。",
+          "name": "太宗皇帝",
+          "id": "f78aa699-e012-4059-9e29-5d30e16cc1d8"
+        },
+        {
+          "desc": "帝諱治，文皇第九子，始封晉王。貞觀十七年，立爲皇太子。在位三十四年，諡曰天皇大帝。集八十六卷，今失傳。存詩八首。",
+          "name": "高宗皇帝",
+          "id": "1701410c-07da-42a3-b2fb-7b1e407d7d52"
+        }
+      ]
+    },
+    {
+      "source_id": "strains_poet_tang_0",
+      "kind": "strains",
+      "dynasty": "唐",
+      "genre": "诗",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/strains/json/poet.tang.0.json",
+      "expected_join_key": "id",
+      "record_count_in_sample_file": 1000,
+      "fields": [
+        {
+          "name": "id",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "strains",
+          "presence_ratio": 1.0,
+          "example_type": "list",
+          "list_length": {
+            "min": 1,
+            "max": 22,
+            "avg": 4.3
+          }
+        }
+      ],
+      "sample_records": [
+        {
+          "strains": [
+            "平平平仄仄，平仄仄平平。",
+            "仄仄平平仄，平平仄仄平。",
+            "平平平仄仄，平仄仄平平。",
+            "平仄仄平仄，平平仄仄平。"
+          ],
+          "id": "3ad6d468-7ff1-4a7b-8b24-a27d70d00ed4"
+        },
+        {
+          "strains": [
+            "平平仄平仄，平平平仄仄。",
+            "仄仄仄平平，平平平仄仄。",
+            "平平仄平仄，仄仄平平仄。",
+            "仄仄仄○○，平仄○○仄。"
+          ],
+          "id": "13e72581-968b-457f-b381-a3b7d95b8b7c"
+        }
+      ]
+    },
+    {
+      "source_id": "rank_poet_tang_0",
+      "kind": "rank",
+      "dynasty": "唐",
+      "genre": "诗",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/rank/poet/poet.tang.rank.0.json",
+      "expected_join_key": "author+title",
+      "record_count_in_sample_file": 1000,
+      "fields": [
+        {
+          "name": "author",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "baidu",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "bing",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "bing_en",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "google",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "so360",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "title",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        }
+      ],
+      "sample_records": [
+        {
+          "baidu": 20600,
+          "author": "太宗皇帝",
+          "title": "帝京篇十首 一",
+          "so360": 1120,
+          "bing": 157000,
+          "bing_en": 97600,
+          "google": 50400
+        },
+        {
+          "baidu": 20300,
+          "author": "太宗皇帝",
+          "title": "帝京篇十首 二",
+          "so360": 1120,
+          "bing": 140000,
+          "bing_en": 89100,
+          "google": 47300
+        }
+      ]
+    },
+    {
+      "source_id": "rank_ci_song_0",
+      "kind": "rank",
+      "dynasty": "宋",
+      "genre": "词",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/rank/ci/ci.song.rank.0.json",
+      "expected_join_key": "author+rhythmic",
+      "record_count_in_sample_file": 1000,
+      "fields": [
+        {
+          "name": "author",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "baidu",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "bing",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "bing_en",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "google",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        },
+        {
+          "name": "rhythmic",
+          "presence_ratio": 1.0,
+          "example_type": "str"
+        },
+        {
+          "name": "so360",
+          "presence_ratio": 1.0,
+          "example_type": "int"
+        }
+      ],
+      "sample_records": [
+        {
+          "baidu": 6730,
+          "author": "和岘",
+          "rhythmic": "导引",
+          "so360": 265,
+          "bing": 2420,
+          "bing_en": 14400,
+          "google": 2400000
+        },
+        {
+          "baidu": 2410,
+          "author": "和岘",
+          "rhythmic": "六州",
+          "so360": 178,
+          "bing": 148000,
+          "bing_en": 38400,
+          "google": 2800000
+        }
+      ]
+    }
+  ],
+  "observed_raw_fields": [
+    "author",
+    "baidu",
+    "bing",
+    "bing_en",
+    "desc",
+    "google",
+    "id",
+    "name",
+    "paragraphs",
+    "rhythmic",
+    "so360",
+    "strains",
+    "tags",
+    "title"
+  ],
+  "directly_usable_fields": [
+    "author",
+    "title",
+    "paragraphs",
+    "id",
+    "rhythmic",
+    "desc",
+    "strains",
+    "baidu",
+    "so360",
+    "bing",
+    "bing_en",
+    "google"
+  ],
+  "missing_target_features": [
+    "themes",
+    "styles",
+    "mood",
+    "imagery",
+    "difficulty",
+    "familiarity",
+    "quality",
+    "suitable_contexts",
+    "recommendation_seed",
+    "translation",
+    "annotations",
+    "user_behavior",
+    "embedding"
+  ],
+  "gap_summary": {
+    "content_body_layer": "Mostly covered for title/author/content, with Song Ci requiring rhythmic-to-cipai mapping.",
+    "recommendation_feature_layer": "Not covered; must be generated through rule-derived, curated, LLM/Agent and behavior-derived pipelines.",
+    "annotation_translation_layer": "Not covered; must be separately authored or AI-assisted and reviewed.",
+    "behavior_layer": "Not covered; produced only by our product event system.",
+    "embedding_layer": "Not covered; generated by our embedding pipeline.",
+    "upstream_sparse_tags": "Observed in some poem files with low coverage; useful only as weak reference, not as the product feature taxonomy."
+  },
+  "step1_decisions": [
+    "Treat chinese-poetry as raw corpus, not as final product database.",
+    "Treat sparse upstream tags as weak reference only; keep product themes/styles/mood in our own feature schema.",
+    "Preserve upstream source_id/source_file/upstream_id instead of exposing upstream shape to clients.",
+    "Keep rule-derived feature inputs in canonical schema: dynasty, genre, cipai, paragraphs, lines, char_count, line_count and optional strains/rank joins.",
+    "Allow semantic features to be pending in Step 2; generate them in later enrichment steps."
+  ]
+}
